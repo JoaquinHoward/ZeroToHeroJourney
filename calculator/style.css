@@ -1,0 +1,35 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: none;
+    background-color: grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.calculator{
+    border-radius: 20px;
+    background-color: #222;
+    height: 70vh;
+    width: 45vh;
+}
+.class{
+    background-color: #222;
+}
+.abilities{
+    height: 60vh;
+    width: 100%;
+    background-color: black;
+    border-radius: 20px;
+}
+.display{
+    height: 35vh;
+    width: 100%;
+    background-color: #222;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    
+}
