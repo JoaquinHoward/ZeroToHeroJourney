@@ -19,14 +19,16 @@ body{
     background-color: #222;
 }
 .abilities{
+    flex-direction: column;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     height: 60vh;
     width: 100%;
     
     background-color: black;
     border-radius: 20px;
     color: whitesmoke;
+    padding: 20px;
 }
 .abilities th{
     vertical-align: top;
@@ -77,4 +79,24 @@ button:hover{
 button:active{
     background-color: whitesmoke;
     color: black;
+}
+.red{
+    color: red;
+}
+.txtorange{
+    color: orange;
+}
+
+.icons{
+    display: flex;
+    padding: 12px;
+    justify-content:space-between;
+    flex-direction: row;
+    align-items: center;
+}
+
+img{
+    width: 25px;
+    height: 25px;
+    margin-right: 10px;
 }
