@@ -96,7 +96,29 @@ button:active{
 }
 
 img{
-    width: 25px;
-    height: 25px;
+    width: 15px;
+    height: 15px;
     margin-right: 10px;
+}
+
+img:hover{
+    background-color: #222;
+    border-radius: 50%;
+}
+
+.lighting{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+    gap: 30px;
+    background-color: black;
+    width: 120px;
+    height: 35px;
+    border-radius: 10px;
+    margin: 60px auto 0 auto;
+    padding: 20px;
+}
+.lighting img{
+    margin-right: 0;
 }
