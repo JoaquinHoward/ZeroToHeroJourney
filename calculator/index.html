@@ -1,65 +1,72 @@
-<!DOCTYPE html>
-<html>
-    <head>
-        <title>Calculator</title>
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&family=Google+Sans:ital,opsz,wght@0,17..18,400..700;1,17..18,400..700&family=Wix+Madefor+Text:ital,wght@0,400..800;1,400..800&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="style.css">
-    </head>
-    <body>
-        <div class="calculator">
-            <div class="display">
-                <div class="lighting">
-                    <img src="/calculator/images/lightIcon.png">
-                    <img src="/calculator/images/darkIcon.png">
-                </div>
-            </div>
-            <div class="abilities">
-                <!-- <div class="operators"></div>
-                <div class="numbers"></div> -->
-                <div class="icons">
-                    <div class="items">
-                        <img src="/calculator/images/historyIcon.png">
-                        <img src="/calculator/images/saveIcon.png">
-                        <img src="/calculator/images/settingsIcon.png">
+    <!DOCTYPE html>
+    <html>
+        <head>
+            <title>Calculator</title>
+            <link rel="preconnect" href="https://fonts.googleapis.com">
+            <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+            <link href="https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&family=Google+Sans:ital,opsz,wght@0,17..18,400..700;1,17..18,400..700&family=Wix+Madefor+Text:ital,wght@0,400..800;1,400..800&display=swap" rel="stylesheet">
+            <link rel="stylesheet" href="style.css">
+        </head>
+        <body>
+            <div class="calculator">
+                <div class="display">
+                    <div class="lighting">
+                        <div class="lightpad"><img src="/calculator/images/lightIcon.png"></div>
+                        <div class="lightpad"><img src="/calculator/images/darkIcon.png"></div>
+                        
+                        
                     </div>
-                    <img src="/calculator/images/xIcon.png">
-
+                    <h3 id="equation"></h3>
+                    <h2 id="answer"></h2>
                 </div>
+                <div class="abilities">
+                    <!-- <div class="operators"></div>
+                    <div class="numbers"></div> -->
+                    <div class="icons">
+                        <div class="items">
+                            <div class="circle-pad"><img src="/calculator/images/historyIcon.png"></div>
+                            <div class="circle-pad"><img src="/calculator/images/saveIcon.png"></div>
+                            <div class="circle-pad"><img src="/calculator/images/settingsIcon.png"></div>
+                            <!-- <img src="/calculator/images/historyIcon.png">
+                            <img src="/calculator/images/saveIcon.png">
+                            <img src="/calculator/images/settingsIcon.png"> -->
+                        </div>
+                        <img src="/calculator/images/xIcon.png" id="xIcon">
 
-                <table>
-                    <tr>
-                        <td><button class="red">C</button></td>
-                        <td><button class="txtorange">+/-</button></td>
-                        <td><button class="txtorange">%</button></td>
-                        <td><button class="orange">/</button></td>
-                    </tr>
-                    <tr>
-                        <td><button>7</button></td>
-                        <td><button>8</button></td>
-                        <td><button>9</button></td>
-                        <td><button class="orange">x</button></td>
-                    </tr>
-                    <tr>
-                        <td><button>4</button></td>
-                        <td><button>5</button></td>
-                        <td><button>6</button></td>
-                        <td><button class="orange">-</button></td>
-                    </tr>
-                    <tr>
-                        <td><button>1</button></td>
-                        <td><button>2</button></td>
-                        <td><button>3</button></td>
-                        <td><button class="orange">+</button></td>
-                    </tr>
-                    <tr>
-                        <td colspan="2"><button>0</button></td>
-                        <td><button>.</button></td>
-                        <td><button class="orange">=</button></td>
-                    </tr>
-                </table>
+                    </div>
+
+                    <table>
+                        <tr>
+                            <td><button class="red">C</button></td>
+                            <td><button class="txtorange">+/-</button></td>
+                            <td><button class="txtorange">%</button></td>
+                            <td><button class="orange">/</button></td>
+                        </tr>
+                        <tr>
+                            <td><button>7</button></td>
+                            <td><button>8</button></td>
+                            <td><button>9</button></td>
+                            <td><button class="orange">x</button></td>
+                        </tr>
+                        <tr>
+                            <td><button>4</button></td>
+                            <td><button>5</button></td>
+                            <td><button>6</button></td>
+                            <td><button class="orange">-</button></td>
+                        </tr>
+                        <tr>
+                            <td><button>1</button></td>
+                            <td><button>2</button></td>
+                            <td><button>3</button></td>
+                            <td><button class="orange">+</button></td>
+                        </tr>
+                        <tr>
+                            <td colspan="2"><button>0</button></td>
+                            <td><button>.</button></td>
+                            <td><button class="orange">=</button></td>
+                        </tr>
+                    </table>
+                </div>
             </div>
-        </div>
-    </body>
-</html>
+        </body>
+    </html>

@@ -78,7 +78,7 @@ button:hover{
 }
 button:active{
     background-color: whitesmoke;
-    color: black;
+    color: #222;
 }
 .red{
     color: red;
@@ -98,12 +98,10 @@ button:active{
 img{
     width: 15px;
     height: 15px;
-    margin-right: 10px;
 }
 
 img:hover{
-    background-color: #222;
-    border-radius: 50%;
+    background-color: #333;
 }
 
 .lighting{
@@ -122,3 +120,46 @@ img:hover{
 .lighting img{
     margin-right: 0;
 }
+
+
+
+
+.items{
+    display: flex;
+}
+
+.circle-pad, xIcon{
+    border-radius: 50%;
+    background-color: #222;
+    height: 30px;
+    width: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
+}
+
+.circle-pad:hover{
+    background-color: #333;
+}
+
+#xIcon{
+    border-radius: 50%;
+}
+
+
+.lightpad{
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.lightpad.active{
+    background-color: #666;
+    box-shadow: inset 0px 2px 4px rgba (0, 0, 0, 0.5);    
+}
+
