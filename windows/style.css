@@ -16,6 +16,24 @@ body{
 
 
 .taskbar{
+    
+    display: flex;
+    align-items: center;
     height:50px;
     background-color: #1d1d76;
+}
+
+.taskbar img{
+    margin: 15px;
+    height: 35px;
+    width: 35px;
+}
+
+.taskbar img:hover{
+    transform: scale(1.1);
+}
+
+.taskbar img:active{
+    height: 30px;
+    width: 30px;
 }
